@@ -1,5 +1,5 @@
 package br.com.alura.screenmatch.principal;
-
+//importa outra classe que foi definida os parametros
 import br.com.alura.screenmatch.calculo.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculo.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
@@ -58,7 +58,7 @@ public class Principal {
         episodio.setSerie(lost);
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
-
+//Filmes
         Filme filmeDoPaulo = new Filme("Dogville", 2003);
         //filmeDoPaulo.setNome("Dogville");
         //filmeDoPaulo.setAnoDeLancamento(2003);
